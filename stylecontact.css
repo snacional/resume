@@ -1,0 +1,46 @@
+a:link{
+	color:rgb(197, 200, 105);
+}
+.back {
+	
+	font-size: 20px;
+}
+.Media{
+	position: fixed;
+	bottom: 100px;
+}
+.Social {
+	position: fixed;
+	bottom: 10px;
+}
+h1 {
+	text-align: left;
+	color: rgb(214, 192, 91);
+}
+body {
+	background: radial-gradient(circle at 90%, rgb(56, 52, 52), #333 35%, #eee 75%, #333 40%);
+	padding: 50px;
+	margin: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+form {
+    text-align: left;
+	font-size: 13;
+	
+  }
+input::placeholder {
+	text-align: center;
+  background: rgba(50,50,50,.2);
+	font-size: 13;
+  border: 1px;
+  	border-style: solid;
+  	border-color: black;
+   border-top-style: hidden;
+   border-left-style: hidden;
+  border-right-style: hidden;
+}
+  textarea{
+  background: rgba(255,255,255,.8);
+  border-style: solid;
+  }
