@@ -1,0 +1,39 @@
+a{
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(255,255,255,5);
+}
+body {
+	background: radial-gradient(circle at 100%, #333, #333 35%, #eee 75%, #333 40%);
+	padding: 50px;
+	margin; 50px;
+	
+}
+form {
+    text-align: center;
+	font-size: 13;
+  	
+  }
+input::placeholder {
+	text-align: center;
+  background: rgba(50,50,50,.2);
+	font-size: 13;
+  border: 1px;
+  	border-style: solid;
+  	border-color: black;
+   border-top-style: hidden;
+   border-left-style: hidden;
+  border-right-style: hidden;
+}
+  textarea{
+  background: rgba(255,255,255,.8);
+  border: 1px;
+  }
