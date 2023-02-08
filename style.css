@@ -5,10 +5,10 @@
     width: 200px;
 }
 .secret{
-    position: absolute;
+    position: fixed;
     font-size: 30px;
     color: rgba(255, 255, 255, 0.895);
-    left: 925px;
+    left: 1200px;
     top: -22px;
     border-color: rgba(47, 47, 46, 0.741);
     border-style: solid;
@@ -18,17 +18,17 @@
     width: 275px;
 }
 a:link{
-	color:rgb(197, 200, 105);
+	color: rgba(47, 47, 46, 0.778);
 }
 a:visited{
-	color:rgb(197, 200, 105);
+	color:rgba(47, 47, 46, 0.778);
 }
 .profile{
     position: fixed;
     right: 1220px;
     font-size: 20px;
     text-align: center;
-    color: rgba(204, 204, 71, 0.886);
+    color:rgba(255, 255, 255, 0.785);
     top: -10px;
     border-color: rgba(47, 47, 46, 0.741);
     border-style: solid;
@@ -37,7 +37,8 @@ a:visited{
     width: 275px;
 }
 body{
-    background: rgb(71, 67, 67);
+    
+    background: rgba(144, 145, 146, 0.222);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 900px;
     position:relative;
@@ -51,16 +52,22 @@ body{
     top: 110px;
     font-size: 20px;
     text-align: justify;
-    color: rgba(255, 255, 255, 0.895);
+    color: rgba(0, 0, 0, 0.895);
     
 }
 h1{
-    color: rgba(232, 232, 82, 0.977);
+    color: rgba(255, 255, 255, 0.785);
     text-align: center;
+    border-color: rgba(47, 47, 46, 0.955);
+    border-style:solid;
+    background: rgba(47, 47, 46, 0.955);
+    height: 50px;
+    position: relative;
+    width: 893px;
 }
 .Contact {
     border-style: solid;
-    background: rgba(204, 204, 71, 0.886);
+    background: rgba(44, 39, 39, 0.995);
     text-align: center;
     right: 100;
     position: relative;
@@ -69,17 +76,18 @@ h1{
     border: 3px;
     height: 30px;
     width: 900px;
+    color:rgba(255, 255, 255, 0.785)
 }
 .edu{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    color:rgba(255, 255, 255, 0.895);
+    color:rgba(0, 0, 0, 0.895);
 }
 table{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: auto;
     margin-right: auto;
-    color: rgba(255, 255, 255, 0.895);
+    color: rgba(0, 0, 0, 0.895);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -97,14 +105,14 @@ table{
     background: #555;
   }
 .skill{
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.895);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.895);
 }
 .char{
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.895);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.895);
 }
 .seminar{
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.895);
+    font-size: px;
+    color: rgba(0, 0, 0, 0.895);
 }
